@@ -10,7 +10,7 @@ VIS = False
 VERBOSE = False
 
 
-def run_ga(sol_per_pop=8, num_parents_mating=4):
+def run_ga(file_name, sol_per_pop=8, num_parents_mating=4,):
     """
     The y=target is to maximize this equation:
         y = w1x1+w2x2+w3x3+w4x4+w5x5+6wx6
@@ -22,9 +22,8 @@ def run_ga(sol_per_pop=8, num_parents_mating=4):
         Mating pool size
         Population size
     """
-
     try:
-        f = open("b_small.in", "r")
+        f = open("data/" + file_name, "r")
         if f.mode == 'r':
             f1 = f.readlines()
             for row_index in range(0, 2):
@@ -109,10 +108,16 @@ def run_ga(sol_per_pop=8, num_parents_mating=4):
         matplotlib.pyplot.ylabel("Fitness")
         matplotlib.pyplot.show()
 
+# 'a_example.in'
+# 'b_small.in'
+# 'c_medium.in'
+# 'd_quite_big.in'
+# 'e_also_big.in'
+file_name = 'e_also_big.in'
 
 fit = 0
 for i in range(100):
-    solution, fitness, max_iter_val, equation_inputs = run_ga()
+    solution, fitness, max_iter_val, equation_inputs = run_ga(file_name)
     if fitness > fit:
         fit = fitness
         sol = solution
@@ -120,3 +125,19 @@ for i in range(100):
         eqs = equation_inputs
         print('Fitness %s fit, solution %s, max %s, eqs = %s ', (fit, sol, m, eqs))
 print('Final Fitness %s fit, solution %s ', (fit, sol))
+
+# write to file
+inds = sol.nonzero()
+first_line = len(inds[0])
+second_line = inds
+
+try:
+    f = open('output/out_' + file_name, 'w+')
+    f.write('%s \n' % first_line)
+    f.write('%s' % ' '.join(map(str, second_line[0])))
+    f.close()
+except(FileNotFoundError):
+    print('Can\'t write to file')
+finally:
+    f.close()
+

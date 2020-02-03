@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9690130-95d2-4691-8da3-8d0716e0d05f" name="Default Changelist" comment="" />
+    <list default="true" id="f9690130-95d2-4691-8da3-8d0716e0d05f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/output/out_a_example.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/out_b_small.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution_with_ga.py" beforeDir="false" afterPath="$PROJECT_DIR$/solution_with_ga.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X4M9DKXmrd0bhs6Qk4AJWkOK6s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,7 +34,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main_ga">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.solution_with_ga">
     <configuration name="ga" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hashcode_pizza_problem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -40,6 +54,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ga.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hashcode_pizza_problem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PythonProjects/datavt" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PythonProjects/datavt/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,8 +128,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="solution_with_ga" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hashcode_pizza_problem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solution_with_ga.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.solution_with_ga" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main_ga" />
         <item itemvalue="Python.ga" />
         <item itemvalue="Python.main" />
@@ -122,7 +182,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580300760045</updated>
-      <workItem from="1580300762462" duration="6126000" />
+      <workItem from="1580300762462" duration="6810000" />
+      <workItem from="1580333242774" duration="1977000" />
+      <workItem from="1580753284598" duration="3040000" />
     </task>
     <servers />
   </component>
@@ -130,46 +192,55 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="657" y="462" key="#xdebugger.evaluate" timestamp="1580313702560">
+    <state x="657" y="462" key="#xdebugger.evaluate" timestamp="1580755614045">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="657" y="462" key="#xdebugger.evaluate/0.23.1792.1017@0.23.1792.1017" timestamp="1580313702560" />
-    <state width="1750" height="375" key="GridCell.Tab.0.bottom" timestamp="1580315354955">
+    <state x="657" y="462" key="#xdebugger.evaluate/0.23.1792.1017@0.23.1792.1017" timestamp="1580755614045" />
+    <state x="452" y="113" key="CommitChangelistDialog2" timestamp="1580756831554">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="375" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1580315354955" />
-    <state width="1750" height="375" key="GridCell.Tab.0.center" timestamp="1580315354954">
+    <state x="452" y="113" key="CommitChangelistDialog2/0.23.1792.1017@0.23.1792.1017" timestamp="1580756831554" />
+    <state width="1750" height="357" key="GridCell.Tab.0.bottom" timestamp="1580756188017">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="375" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1580315354954" />
-    <state width="1750" height="375" key="GridCell.Tab.0.left" timestamp="1580315354954">
+    <state width="1750" height="357" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1580756188017" />
+    <state width="1878" height="357" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1580405975133" />
+    <state width="1750" height="357" key="GridCell.Tab.0.center" timestamp="1580756188017">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="375" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1580315354954" />
-    <state width="1750" height="375" key="GridCell.Tab.0.right" timestamp="1580315354954">
+    <state width="1750" height="357" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1580756188017" />
+    <state width="1878" height="357" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1580405975132" />
+    <state width="1750" height="357" key="GridCell.Tab.0.left" timestamp="1580756188016">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="375" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1580315354954" />
-    <state width="1750" height="341" key="GridCell.Tab.1.bottom" timestamp="1580314833095">
+    <state width="1750" height="357" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1580756188016" />
+    <state width="1878" height="357" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1580405975131" />
+    <state width="1750" height="357" key="GridCell.Tab.0.right" timestamp="1580756188017">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="341" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1580314833095" />
-    <state width="1750" height="341" key="GridCell.Tab.1.center" timestamp="1580314833094">
+    <state width="1750" height="357" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1580756188017" />
+    <state width="1878" height="357" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1580405975132" />
+    <state width="1750" height="325" key="GridCell.Tab.1.bottom" timestamp="1580755625634">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="341" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1580314833094" />
-    <state width="1750" height="341" key="GridCell.Tab.1.left" timestamp="1580314833094">
+    <state width="1750" height="325" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1580755625634" />
+    <state width="1750" height="325" key="GridCell.Tab.1.center" timestamp="1580755625633">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="341" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1580314833094" />
-    <state width="1750" height="341" key="GridCell.Tab.1.right" timestamp="1580314833094">
+    <state width="1750" height="325" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1580755625633" />
+    <state width="1750" height="325" key="GridCell.Tab.1.left" timestamp="1580755625633">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="341" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1580314833094" />
-    <state x="397" y="170" key="SettingsEditor" timestamp="1580311020611">
+    <state width="1750" height="325" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1580755625633" />
+    <state width="1750" height="325" key="GridCell.Tab.1.right" timestamp="1580755625634">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="397" y="170" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1580311020611" />
+    <state width="1750" height="325" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1580755625634" />
+    <state x="313" y="273" key="SettingsEditor" timestamp="1580403226504">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="313" y="273" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1580403226504" />
+    <state x="425" y="164" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1580333873846" />
     <state x="550" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1580300765192">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -179,15 +250,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main_ga.py</url>
-          <line>120</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/solution_with_ga.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hashcode_pizza_problem$main_ga.coverage" NAME="main_ga Coverage Results" MODIFIED="1580315354948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hashcode_pizza_problem$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1580753853481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PythonProjects/datavt" />
+    <SUITE FILE_PATH="coverage/hashcode_pizza_problem$solution_with_ga.coverage" NAME="solution_with_ga Coverage Results" MODIFIED="1580756188011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hashcode_pizza_problem$de.coverage" NAME="de Coverage Results" MODIFIED="1580311680448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hashcode_pizza_problem$main.coverage" NAME="main Coverage Results" MODIFIED="1580306285718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
